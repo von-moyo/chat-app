@@ -1,0 +1,346 @@
+body
+{
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.bod
+{
+    background-color: hsl(270, 20%, 96%);
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.patch
+{
+    background-color: hsl(289, 80%, 58%);
+    transform: translateX(-23%);
+    width: 36%;
+    height: 89%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.phone
+{
+    background-color: hsl(0, 0%, 100%);
+    transform: translateX(-74%);
+    height: 432px;
+    margin: auto 0;
+    border-radius: 32px;
+    width: 231;
+    padding: 9;
+}
+.drop-white
+{
+    height: 18;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    background-color: hsl(0, 0%, 100%);
+    transform: translateY(-62px);
+}
+.top-head
+{
+    background-color: hsl(289, 80%, 58%);
+    height: 60;
+    border-radius: 23px 23px 7px 7px;
+    display: flex;
+}
+.lds
+{
+    color: hsl(0, 0%, 100%);
+    font-size: 15;
+    padding: 16 7 0 13;
+}
+.pfp
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-top: 30;
+    margin-right: 10;
+}
+.contact-desc
+{
+    margin-top: 30;
+}
+.contact-name
+{
+    color: hsl(0, 0%, 100%);
+}
+.contact-about
+{
+    color: hsl(206, 6%, 79%);
+    font-size: 7;
+    margin-top: 3;
+}
+.dot 
+{
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    line-height: 0.2;
+    font-size: 15;
+}
+.triple-dots
+{
+    margin-top: 33;
+    margin-left: auto;
+    margin-right: 13;
+}
+.chat
+{
+    background-color: hsl(270, 20%, 96%);
+    height: 83.6%;
+    transform: translateY(-23px);
+    border-radius: 0 0 23px 23px;
+    margin: 0;
+    padding: 7 7;
+}
+.msg-receive
+{
+    background-color: hsla(293, 100%, 63%, 0.1);
+    border-radius: 8px;
+    border-bottom-left-radius: 4px;
+    color: hsl(276, 55%, 52%);
+    font-size: 7;
+    width: 50%;
+    padding: 7;
+    margin-bottom: 7;
+}
+.images-sent
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 12;
+}
+.dog
+{
+    width: 35;
+    height: 35;
+    border-radius: 10px;
+    margin-right: 5;
+}
+.msg-sent 
+{
+    color: hsl(271, 15%, 43%);
+    background-color: white;
+    margin-top: 7;
+    width: 50%;
+    font-size: 7;
+    padding: 7;
+    border-radius: 8px;
+    border-bottom-right-radius: 3px;
+}
+#sent2
+{
+    width: fit-content;
+    margin-bottom: 7;
+}
+.sent 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.tag-receive
+{
+    background-color: hsl(264, 51%, 60%);
+    border-radius: 8px;
+    border-bottom-left-radius: 4px;
+    color: white;
+    font-size: 7;
+    width: 65%;
+    padding: 7;
+    padding-right: 8%;
+    margin-bottom: 7;
+    display: flex;
+}
+.circle
+{
+    width: 9;
+    height: 9;
+    border: 1px solid hsl(267, 11%, 84%);
+    border-radius: 50%;
+    margin-right: 6;
+    margin-top: 2;
+}
+.price 
+{
+    margin: 0;
+    font-size: 13;
+    font-weight: 700;
+    margin-left: auto;
+}
+.time
+{
+    color: hsl(267, 11%, 84%);
+    padding-top: 3;
+    font-size: 8;
+    margin: 0;
+}
+.conversation-entry
+{
+    border: none;
+    font-size: 8;
+    border-radius: 20px;
+    padding-top: 15;
+    padding-bottom: 9;
+    outline: none;
+}
+.conversation-entry::placeholder
+{
+    color: hsl(206, 6%, 79%);
+}
+.convo 
+{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20;
+    margin-top: 13;
+}
+.send 
+{
+    width: 24;
+    height: 24;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(271, 36%, 24%);
+    margin-right: 6px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 13;
+}
+.desc 
+{
+    width: 30%;
+    margin: auto 0;
+    transform: translateX(-10%);
+}
+.head 
+{
+    color: hsl(271, 36%, 24%);
+    font-size: 34;
+    font-weight: 700;
+    margin-bottom: 20;
+}
+.para
+{
+    color: hsl(270, 7%, 64%);
+    font-size: 14;
+    line-height: 1.6;
+}
+
+.patch2
+{
+    background-color: hsla(0, 2%, 88%, 0.148);
+    height: 83%;
+    width: 300px;
+    margin-top: auto;
+    border-top-left-radius: 250px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+@media (max-width: 900px) 
+{
+    .desc
+    {
+        transform: translateX(-40%);
+    }    
+    .head
+    {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .para
+    {
+        font-size: 10;
+    }
+    .patch
+    {
+        width: 50%;
+    }
+}
+
+@media (max-width: 750px) 
+{
+    .head
+    {
+        font-size: 22px;
+        margin-bottom: 8;
+    }
+    .desc 
+    {
+        transform: translateX(-60%);
+    }
+    .phone
+    {
+        height: 450px;
+    }
+}
+@media (max-width: 600px) 
+{
+    .bod
+    {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .patch
+    {
+        transform: translateX(0);
+        width: 50%;
+        height: 600;
+        border-radius: 0 0 1000px 0;
+        margin-right: auto;
+    }
+    .patch2
+    {
+        display: none;
+    }
+    .phone
+    {
+        transform: translateX(0);
+        height: 432px;
+        position: absolute;
+        top: 100px;
+    }
+    .desc
+    {
+        transform: translate(0);
+        text-align: center;
+        width: 65%;
+        margin: 100 0;
+    }
+}
+@media (max-width:375px) 
+{
+    .phone
+    {
+        box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    }    
+    .desc
+    {
+        width: 90%;
+    }
+    .head
+    {
+        font-size: 40;
+        font-weight: 700;
+        margin-bottom: 25;
+    }
+    .para
+    {
+        font-size: 18;
+    }
+}
