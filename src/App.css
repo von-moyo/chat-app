@@ -1,38 +1,346 @@
+body {
+  margin: 0px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  background-color: hsl(270, 20%, 96%);
+}
+
 .App {
-  text-align: center;
+  margin: 0px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bod {
+  background-color: hsl(270, 20%, 96%);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.patch {
+  background-color: hsl(289, 80%, 58%);
+  transform: translateX(-23%);
+  width: 40%;
+  height: 700px;
+  border-bottom-right-radius: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.phone {
+  background-color: hsl(0, 0%, 100%);
+  transform: translateX(-100%);
+  height: 432px;
+  margin: auto 0px;
+  border-radius: 32px;
+  width: 231px;
+  padding: 9px;
+}
+
+.drop-white {
+  height: 18px;
+  width: 50%;
+  margin: 0px auto;
+  border-radius: 0px 0px 20px 20px;
+  background-color: hsl(0, 0%, 100%);
+  transform: translateY(-62px);
+}
+
+.top-head {
+  background-color: hsl(289, 80%, 58%);
+  height: 60px;
+  border-radius: 23px 23px 7px 7px;
+  display: flex;
+}
+
+.lds {
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  padding: 16px 7px 0px 13px;
+}
+
+.pfp {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.contact-desc {
+  margin-top: 30px;
+}
+
+.contact-name {
+  color: hsl(0, 0%, 100%);
+}
+
+.contact-about {
+  color: hsl(206, 6%, 79%);
+  font-size: 7px;
+  margin-top: 3px;
+}
+
+.dot {
+  margin: 0px;
+  color: hsl(0, 0%, 100%);
+  line-height: 0.2;
+  font-size: 15px;
+}
+
+.triple-dots {
+  margin-top: 33px;
+  margin-left: auto;
+  margin-right: 13px;
+}
+
+.chat {
+  background-color: hsl(270, 20%, 96%);
+  height: 83.6%;
+  transform: translateY(-23px);
+  border-radius: 0px 0px 23px 23px;
+  margin: 0px;
+  padding: 7px 7px;
+}
+
+.msg-receive {
+  background-color: hsla(293, 100%, 63%, 0.1);
+  border-radius: 8px;
+  border-bottom-left-radius: 4px;
+  color: hsl(276, 55%, 52%);
+  font-size: 7px;
+  width: 50%;
+  padding: 7px;
+  margin-bottom: 7px;
+}
+
+.images-sent {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 12px;
+}
+
+.dog {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.msg-sent {
+  color: hsl(271, 15%, 43%);
+  background-color: white;
+  margin-top: 7px;
+  width: 50%;
+  font-size: 7px;
+  padding: 7px;
+  border-radius: 8px;
+  border-bottom-right-radius: 3px;
+}
+
+#sent2 {
+  width: fit-content;
+  margin-bottom: 7px;
+}
+
+.sent {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-end;
+}
+
+.tag-receive {
+  background-color: hsl(264, 51%, 60%);
+  border-radius: 8px;
+  border-bottom-left-radius: 4px;
   color: white;
+  font-size: 7px;
+  width: 65%;
+  padding: 7px;
+  padding-right: 8%;
+  margin-bottom: 7px;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.circle {
+  width: 9px;
+  height: 9px;
+  border: 1px solid hsl(267, 11%, 84%);
+  border-radius: 50%;
+  margin-right: 6px;
+  margin-top: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.price {
+  margin: 0px;
+  font-size: 13px;
+  font-weight: 700px;
+  margin-left: auto;
+}
+
+.time {
+  color: hsl(267, 11%, 84%);
+  padding-top: 3px;
+  font-size: 8px;
+  margin: 0px;
+}
+
+.conversation-entry {
+  border: none;
+  font-size: 8px;
+  border-radius: 20px;
+  padding-top: 15px;
+  padding-bottom: 9px;
+  outline: none;
+}
+
+.conversation-entry::placeholder {
+  color: hsl(206, 6%, 79%);
+}
+
+.convo {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  margin-top: 13px;
+}
+
+.send {
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(271, 36%, 24%);
+  margin-right: 6px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700px;
+  font-size: 13px;
+}
+
+.desc {
+  width: 30%;
+  margin: auto 0px;
+  transform: translateX(-10%);
+}
+
+.head {
+  color: hsl(271, 36%, 24%);
+  font-size: 34px;
+  font-weight: 700px;
+  margin-bottom: 20px;
+}
+
+.para {
+  color: hsl(270, 7%, 64%);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.patch2 {
+  background-color: hsla(0, 2%, 88%, 0.148);
+  height: 83%;
+  width: 300px;
+  margin-top: auto;
+  border-top-left-radius: 250px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+@media (max-width: 900px) {
+  .desc {
+    transform: translateX(-40%);
   }
-  to {
-    transform: rotate(360deg);
+
+  .head {
+    font-size: 28px;
+    font-weight: 600px;
+  }
+
+  .para {
+    font-size: 10px;
+  }
+
+  .patch {
+    width: 50%;
+  }
+}
+
+@media (max-width: 750px) {
+  .head {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .desc {
+    transform: translateX(-60%);
+  }
+
+  .phone {
+    height: 450px;
+  }
+}
+
+@media (max-width: 600px) {
+  .bod {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .patch {
+    transform: translateX(0);
+    width: 50%;
+    height: 600px;
+    border-radius: 0 0 1000px 0px;
+    margin-right: auto;
+  }
+
+  .patch2 {
+    display: none;
+  }
+
+  .phone {
+    transform: translateX(0);
+    height: 432px;
+    position: absolute;
+    top: 100px;
+  }
+
+  .desc {
+    transform: translate(0);
+    text-align: center;
+    width: 65%;
+    margin: 100 0px;
+  }
+}
+
+@media (max-width:375px) {
+  .phone {
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .desc {
+    width: 90%;
+  }
+
+  .head {
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 25px;
+  }
+
+  .para {
+    font-size: 18px;
   }
 }
